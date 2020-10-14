@@ -1,0 +1,10 @@
+<section fxLayout="column" fxLayoutAlign="center center">
+    <h1 mat-dialog-title>Confirm Delete</h1>
+    <mat-dialog-content>
+      <p>{{data.message}}</p>
+    </mat-dialog-content>
+    <mat-dialog-actions>
+	  <button mat-flat-button color="primary" id="no-button" [mat-dialog-close]="false">NO</button>
+	   <button mat-flat-button color="warn" id="yes-button" [mat-dialog-close]="true">YES</button>
+    </mat-dialog-actions>
+  </section>
